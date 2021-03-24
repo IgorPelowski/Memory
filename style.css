@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+    background-color: rgb(233, 171, 90);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+.heading{
+    
+    font-size: 60px;
+    color: black;
+    grid-column: 1/span 3;
+    text-align: center;
+}
+a{
+    
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+nav{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+}
+button{
+    font: 400 50px Arial;
+    border: 3px solid black;
+}
+.grid__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    height: auto;
+}
+.grid__item{
+    border:2px solid black;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 100px;
+    
+}
+.grid__container_js{
+    display: none;
+}
+.gra{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 400px);
+
+}
+.gra__item{
+    border:2px solid black;
+    display: flex;
+    background-color: brown;
+   
+}
+.a{
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+}
+.aa{
+    background-color: chartreuse;
+}
+
+.b{
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+}
+.bb{
+    background-color: red;
+}
+
+.c{
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+}
+.cc{
+    background-color: red;
+}
+
+.d{
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+}
+.dd{
+    background-color: chartreuse;
+}
+.cancel{
+    display: none;
+    
+}
